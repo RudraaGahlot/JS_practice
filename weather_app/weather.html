@@ -13,30 +13,33 @@
     <!-- input feild  -->
     <div class="search">
       <input type="text" placeholder="enter location" spellcheck="false">
-      <button type="submit"><img src="img/search.png" alt=""></button>
+      <button type="submit"><img src="img/glass.png" alt=""></button>
+      </div>
+      <div class="error">
+          <p>Invalid city name</p>
       </div>
 
       <!-- output-feild  -->
     <div class="temperature">
 
-      <img src="" alt="RAINing">
+      <img src="./img/rain.png" class="weather-icon">
       
-      <h1 id="temp">22° C</h1>
+      <h1 id="temp"></h1>
 
-      <h1 id="location">New York, NY</h1>
+      <h2 id="location" class="city"> </h2>
 
       <div class="weather-details" >
         <div class="col">
-          <img src="" alt="">
+          <img src="./img/humidity.png" alt="">
             <div>
-               <p>50%</p>
+               <p class="humidity">50%</p>
                <p>Humidity</p> 
             </div>
         </div>
         <div id="wind-speed" class="col">
-          <img src="" alt="">
+          <img src="./img/wind.png" alt="">
           <div>
-             <p>15 km/h</p>
+             <p class="wind">15 km/h</p>
              <p>Wind Speed</p> 
           </div>
         </div>
@@ -44,6 +47,6 @@
     </div>
 
     </div>
-  <script src="weather.script"></script>
+  <script src="weather.js"></script>
 </body>
 </html>
